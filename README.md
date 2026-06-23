@@ -63,6 +63,6 @@ O APK pode ser disponibilizado através do link gerado pelo Expo EAS Build após
 
 ## Desenvolvedores do Projeto
 
-Érick
-Pedro Henrique Rodrigues de Souza
-Venisson
+Érick,
+Pedro Henrique Rodrigues de Souza,
+Venisson.
