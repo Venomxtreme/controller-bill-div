@@ -1,56 +1,68 @@
-# Welcome to your Expo app 👋
+# Controller Bill Div
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile de controle financeiro pessoal desenvolvido em React Native com Expo. Permite gerenciar receitas, despesas e acompanhar o histórico financeiro de forma simples e intuitiva.
 
-## Get started
+## Objetivo
 
-1. Install dependencies
+O objetivo do aplicativo é auxiliar usuários no controle de suas finanças pessoais, permitindo registrar receitas e despesas, acompanhar pagamentos e visualizar o histórico financeiro de forma organizada.
 
-   ```bash
-   npm install
-   ```
+## Funcionalidades
 
-2. Start the app
+* Cadastro e autenticação de usuários
+* Cadastro, edição e exclusão de receitas
+* Cadastro, edição e exclusão de despesas
+* Controle de despesas pagas e pendentes
+* Histórico de movimentações financeiras
+* Pesquisa de receitas e despesas
+* Geração de relatório em PDF
+* Meta financeira personalizada
+* Tema claro e escuro (Dark Mode)
 
-   ```bash
-   npx expo start
-   ```
+## Tecnologias utilizadas
 
-In the output, you'll find options to open the app in a
+* React Native
+* Expo
+* Expo Router
+* Firebase Authentication
+* Firebase Firestore
+* Zustand
+* Moti
+* React Native Toast Message
+* React Native DateTimePicker
+* Expo Print
+* Expo Sharing
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Como instalar
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Como executar
 
-### Other setup steps
+```bash
+npx expo start
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Ou para executar diretamente no Android:
 
-## Learn more
+```bash
+npm run android
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Como gerar o APK
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx eas build:configure
+npx eas build -p android --profile preview
+```
 
-## Join the community
+## Release
 
-Join our community of developers creating universal apps.
+O APK pode ser disponibilizado através do link gerado pelo Expo EAS Build após a conclusão da compilação.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Desenvolvedores do Projeto
+
+Érick
+Pedro Henrique Rodrigues de Souza
+Venisson
